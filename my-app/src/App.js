@@ -1,12 +1,12 @@
 // import logo from './logo.svg';
 import './App.css';
-import AboutMe from "./components/pages/About"
+import About from "./components/pages/About"
 
 
 function App() {
   return (
     <div className="About">
-      <AboutMe />;
+      <About />;
     </div>
   );
 }
