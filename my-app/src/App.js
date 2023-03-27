@@ -1,12 +1,13 @@
 // import logo from './logo.svg';
 import './App.css';
-import About from "./components/pages/About"
+import ActiveContainer from './components/ActiveContainer';
+
 
 
 function App() {
   return (
     <div className="About">
-      <About />;
+      <ActiveContainer />;
     </div>
   );
 }

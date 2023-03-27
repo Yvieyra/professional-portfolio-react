@@ -34,3 +34,9 @@
   background-color: #04AA6D;
   color: white;
 }
+
+.contact-form {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
