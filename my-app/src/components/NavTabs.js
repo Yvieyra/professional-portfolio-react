@@ -4,7 +4,8 @@ import React from 'react';
 
 export default function NavTabs({ currentPage, handlePageChange }) {
     return (
-        <div className="topnav">
+        <header className="topnav">
+
             <a href="#about"
                 onClick={() => handlePageChange('About')}>About</a>
 
@@ -16,6 +17,6 @@ export default function NavTabs({ currentPage, handlePageChange }) {
 
             <a href="#resume"
                 onClick={() => handlePageChange('Resume')}>Resume</a>
-        </div>
+        </header>
     );
 }

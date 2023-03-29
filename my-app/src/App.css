@@ -1,9 +1,5 @@
 
-/* .About p {
-  text-align: center ;
-} */
-
-.About{
+.About {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -11,12 +7,31 @@
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  padding: 50px;
+  /* padding: 50px; */
+}
+
+.portfolio-container {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  /* padding: 50px; */
+}
+
+.about-me {
+  padding: 40px;
+  width: 75%;
 }
 
 .topnav {
-  background-color: #333;
+  background-color: #8295be;
   overflow: hidden;
+  display: flex;
+  justify-content: right;
+  padding: 20px;
 }
 
 .topnav a {
@@ -31,7 +46,7 @@
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #04aa6d;
   color: white;
 }
 
@@ -39,4 +54,14 @@
   display: flex;
   text-align: center;
   flex-direction: column;
+}
+
+footer {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-bottom: 25px;
 }
