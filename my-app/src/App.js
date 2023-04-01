@@ -6,8 +6,8 @@ import ActiveContainer from './components/ActiveContainer';
 
 function App() {
   return (
-    <div className="About">
-      <ActiveContainer />;
+    <div >
+      <ActiveContainer />
     </div>
   );
 }

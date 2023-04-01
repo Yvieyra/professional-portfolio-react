@@ -7,7 +7,17 @@
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  /* padding: 50px; */
+ 
+}
+
+.contact-container {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
 .portfolio-container {
@@ -18,7 +28,7 @@
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  /* padding: 50px; */
+ 
 }
 
 .about-me {
@@ -45,7 +55,7 @@
   color: black;
 }
 
-.topnav a.active {
+.topnav a:active {
   background-color: #04aa6d;
   color: white;
 }
@@ -54,6 +64,7 @@
   display: flex;
   text-align: center;
   flex-direction: column;
+  padding-top: 50px;
 }
 
 footer {
@@ -65,3 +76,8 @@ footer {
   color: white;
   padding-bottom: 25px;
 }
+
+ .marvel {
+  border-style:dashed;
+  border: white;
+ }

@@ -10,15 +10,17 @@ export default function ActiveContainer() {
 
     const renderPage = () => {
         if (currentPage === 'About') {
-            return <About/>;
+            return <About />;
         }
         if (currentPage === 'Contact') {
-            return <Contact/>;
+            return <Contact />;
         }
         if (currentPage === 'Portfolio') {
-            return <Portfolio/>;
+            return <Portfolio />;
         }
-        return <Resume/>;
+        if (currentPage === 'Resume') {
+            return <Resume />;
+        }
     };
 
     const handlePageChange = (page) => setCurrentPage(page);
