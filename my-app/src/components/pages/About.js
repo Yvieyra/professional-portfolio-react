@@ -9,7 +9,7 @@ export default function About() {
             </h2>
             <img src={aboutImage} alt="" width="150" height="180" />
             <div className='about-me'>
-                <p>I am currently a student at the University of Utah, and I am learning fullstack development. I appreciate the problem solving skills I have learned to develop apps,
+                <p>I am currently a student at University of Utah, and I am learning fullstack development. I appreciate the problem solving skills I have learned to develop apps,
                     programs, and just about anything I want with dedication and continuous learning.
 
                     I am a passionate about learning new skills, and technology. I am someone who works well with others in a team setting.
