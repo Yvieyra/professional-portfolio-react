@@ -1,62 +1,47 @@
 
-.About {
-  background-color: #282c34;
+.container {
+  background-color: #4d7480;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
- 
-}
-
-.contact-container {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.portfolio-container {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
- 
 }
 
 .about-me {
-  padding: 40px;
+  padding: 35px;
   width: 75%;
 }
 
+.name {
+ font-size: 23px;
+padding-right: 660px;
+color: black;
+
+}
+
 .topnav {
-  background-color: #8295be;
+  background-color: #b1e2eb;
   overflow: hidden;
   display: flex;
   justify-content: right;
   padding: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .topnav a {
-  text-align: center;
-  padding: 14px 16px;
-  font-size: 17px;
+  padding: 14px;
+  font-size: 23px;
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: white;
   color: black;
 }
 
 .topnav a:active {
-  background-color: #04aa6d;
+  background-color: grey;
   color: white;
 }
 
@@ -70,7 +55,7 @@
 footer {
   background-color: #282c34;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -78,6 +63,22 @@ footer {
 }
 
  .marvel {
-  border-style:dashed;
-  border: white;
+  border-style: solid;
+  align-items: center;
+  text-align: center;
  }
+
+ .daycare {
+  border-style: solid;
+  align-items: center;
+  text-align: center;
+ }
+ 
+ .marvel a {
+  color: white;
+}
+
+.daycare a {
+  color: white;
+}
+
