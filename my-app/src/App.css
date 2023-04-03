@@ -1,6 +1,6 @@
 
 .container {
-  background-color: #4d7480;
+  background-color: #64abad;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -17,7 +17,7 @@
 .name {
  font-size: 23px;
 padding-right: 660px;
-color: black;
+color: #025b5e;
 
 }
 
@@ -33,15 +33,16 @@ color: black;
 .topnav a {
   padding: 14px;
   font-size: 23px;
+  color:  #025b5e;
 }
 
 .topnav a:hover {
-  background-color: white;
+  background-color: rgb(109, 240, 240);
   color: black;
 }
 
 .topnav a:active {
-  background-color: grey;
+  background-color: #4d7480;
   color: white;
 }
 
@@ -53,7 +54,7 @@ color: black;
 }
 
 footer {
-  background-color: #282c34;
+  background-color: #64abad;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,23 +63,34 @@ footer {
   padding-bottom: 25px;
 }
 
- .marvel {
-  border-style: solid;
+.portfolio-container {
+  background-color: #64abad;
+  display: flex;
+  flex-direction: row;
   align-items: center;
-  text-align: center;
- }
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
 
- .daycare {
+ .project-container {
   border-style: solid;
   align-items: center;
   text-align: center;
+  padding: 10px;
  }
  
- .marvel a {
+ .project-container a {
   color: white;
 }
 
-.daycare a {
+.project-title {
+  background-color: #64abad;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
   color: white;
 }
+
 
