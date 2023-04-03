@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Yvieyra/professional-portfolio-react.git/static/css/main.ee12857c.css",
+    "main.js": "/Yvieyra/professional-portfolio-react.git/static/js/main.5a445765.js",
+    "static/media/marvel.png": "/Yvieyra/professional-portfolio-react.git/static/media/marvel.dfc6c3ec8b58813c5a4d.png",
+    "static/media/new yessenia.png": "/Yvieyra/professional-portfolio-react.git/static/media/new yessenia.2f8dda5cf4a432301393.png",
+    "static/media/daycare.png": "/Yvieyra/professional-portfolio-react.git/static/media/daycare.dfd7de0a0f478bdc4799.png",
+    "static/media/insomnia.png": "/Yvieyra/professional-portfolio-react.git/static/media/insomnia.64e3bdb9651a8432bbfb.png",
+    "index.html": "/Yvieyra/professional-portfolio-react.git/index.html",
+    "main.ee12857c.css.map": "/Yvieyra/professional-portfolio-react.git/static/css/main.ee12857c.css.map",
+    "main.5a445765.js.map": "/Yvieyra/professional-portfolio-react.git/static/js/main.5a445765.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee12857c.css",
+    "static/js/main.5a445765.js"
+  ]
+}
