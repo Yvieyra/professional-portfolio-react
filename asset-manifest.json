@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Yvieyra/professional-portfolio-react/static/css/main.ee12857c.css",
-    "main.js": "/Yvieyra/professional-portfolio-react/static/js/main.9d09c7d2.js",
-    "static/media/marvel.png": "/Yvieyra/professional-portfolio-react/static/media/marvel.dfc6c3ec8b58813c5a4d.png",
-    "static/media/new yessenia.png": "/Yvieyra/professional-portfolio-react/static/media/new yessenia.2f8dda5cf4a432301393.png",
-    "static/media/daycare.png": "/Yvieyra/professional-portfolio-react/static/media/daycare.dfd7de0a0f478bdc4799.png",
-    "static/media/insomnia.png": "/Yvieyra/professional-portfolio-react/static/media/insomnia.64e3bdb9651a8432bbfb.png",
-    "index.html": "/Yvieyra/professional-portfolio-react/index.html",
-    "main.ee12857c.css.map": "/Yvieyra/professional-portfolio-react/static/css/main.ee12857c.css.map",
-    "main.9d09c7d2.js.map": "/Yvieyra/professional-portfolio-react/static/js/main.9d09c7d2.js.map"
+    "main.css": "/professional-portfolio-react/static/css/main.ee12857c.css",
+    "main.js": "/professional-portfolio-react/static/js/main.8ef70507.js",
+    "static/media/marvel.png": "/professional-portfolio-react/static/media/marvel.dfc6c3ec8b58813c5a4d.png",
+    "static/media/new yessenia.png": "/professional-portfolio-react/static/media/new yessenia.2f8dda5cf4a432301393.png",
+    "static/media/daycare.png": "/professional-portfolio-react/static/media/daycare.dfd7de0a0f478bdc4799.png",
+    "static/media/insomnia.png": "/professional-portfolio-react/static/media/insomnia.64e3bdb9651a8432bbfb.png",
+    "index.html": "/professional-portfolio-react/index.html",
+    "main.ee12857c.css.map": "/professional-portfolio-react/static/css/main.ee12857c.css.map",
+    "main.8ef70507.js.map": "/professional-portfolio-react/static/js/main.8ef70507.js.map"
   },
   "entrypoints": [
     "static/css/main.ee12857c.css",
-    "static/js/main.9d09c7d2.js"
+    "static/js/main.8ef70507.js"
   ]
 }
