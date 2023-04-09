@@ -2,7 +2,7 @@ import React from 'react';
 //consider adding className if statement for CSS
 
 
-export default function NavTabs({ currentPage, handlePageChange }) {
+export default function NavTabs({ handlePageChange }) {
     return (
         <header className="topnav">
             <span className="name"> YESSENIA VIEYRA</span> 
