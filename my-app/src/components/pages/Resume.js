@@ -4,15 +4,27 @@ import React from 'react';
 export default function About() {
     return (
         <div className="container">
-            <h2>
-                Resume
-            </h2>
-            <div className='about-me'>
-                <p>I am currently a student at the University of Utah, and I am learning fullstack development. I appreciate the problem solving skills I have learned to develop apps,
-                    programs, and just about anything I want with dedication and continuous learning.
+            
+            <div className='resume'>
+                <h3>Front-End</h3>
+                <ul>
+                 <li>HTML</li> 
+                 <li>CSS</li>
+                 <li>JavaScript</li>  
+                </ul>
+                
+                <h3>Back-End</h3>
+                <ul>
+                 <li>Node JS</li> 
+                 <li>Express</li>
+                 <li>Mysql (mysql workbench)</li>
+                 <li>Nosql (mongoDB, graphQl, mongoDB compass)</li>  
+                 <li>React</li> 
+                 <li>Insomnia</li> 
+                 <li>MVC programming</li>
+                 <li>MERN</li>
 
-                    I am a passionate about learning new ideas, skills, and technology who works well with others in a team setting.
-                    I have strong communication/emotional intelligence skills. Equally, I work well on my own and have become quite the multi-tasker, I manage my time well.</p>
+                </ul>
             </div>
 
         </div>
