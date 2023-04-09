@@ -1,7 +1,10 @@
 import React from 'react';
-import marvelImage from "../../images/marvel.png"
-import daycareImage from "../../images/daycare.png"
-import insomniaImage from "../../images/insomnia.png"
+import marvelImage from "../../images/marvel.png";
+import daycareImage from "../../images/daycare.png";
+import insomniaImage from "../../images/insomnia.png";
+import readmeImage from "../../images/readme generator.png";
+import comingImage from "../../images/coming soon.png";
+import weatherImage from "../../images/weather.png"
 
 export default function Portfolio() {
     return (
@@ -37,6 +40,34 @@ export default function Portfolio() {
                 </a>
                 <br></br>
                 <a href="https://github.com/Yvieyra/media-api-nosql.git" target="_blank" rel="noopener noreferrer">github URL</a>
+            </div>
+            <br></br>
+            <div className='project-container'>
+                <a href="https://drive.google.com/file/d/1yT-2XtCihf5lub-R3ctA5a7ni5_oa9H-/view" title="README generator" target="_blank" rel="noopener noreferrer">
+                    <img src={readmeImage} alt="" width="300" height="180" />
+                </a>
+                <br></br>
+                <a href="https://github.com/Yvieyra/readme-generator" target="_blank" rel="noopener noreferrer">github URL</a>
+            </div>
+
+            <br></br>
+
+            <div className='project-container'>
+                <a href="https://yvieyra.github.io/weather-forecast-/" title="Weather Forecast" target="_blank" rel="noopener noreferrer">
+                    <img src={weatherImage} alt="" width="300" height="180" />
+                </a>
+                <br></br>
+                <a href="https://github.com/Yvieyra/weather-forecast-.git" target="_blank" rel="noopener noreferrer">github URL</a>
+            </div>
+
+            <br></br>
+
+            <div className='project-container'>
+                <a href="" title="science-project-builder" target="_blank" rel="noopener noreferrer">
+                    <img src={comingImage} alt="" width="300" height="180" />
+                </a>
+                <br></br>
+                <a href="https://github.com/sadapannord/science-project-search-and-buildier.git" target="_blank" rel="noopener noreferrer">github URL</a>
             </div>
             </div> 
         </div>

@@ -66,10 +66,12 @@ footer {
 .portfolio-container {
   background-color: #64abad;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  width: 80%;
 }
 
  .project-container {
