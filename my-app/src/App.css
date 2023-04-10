@@ -95,4 +95,10 @@ footer {
   color: white;
 }
 
-
+@media screen and (max-width: 768px) {
+  /* Use flex-direction to stack the navbar, sidebar, and body */
+  main,
+  nav {
+    flex-direction: column;
+  }
+}
