@@ -1,30 +1,49 @@
 import React from 'react';
 
 
-export default function About() {
+export default function Resume() {
+    // Function will execute on click of button
+    const onButtonClick = () => {
+        // using Java Script method to get PDF file
+        fetch('Resume.pdf').then(response => {
+            response.blob().then(blob => {
+                // Creating new object of PDF file
+                const fileURL = window.URL.createObjectURL(blob);
+                // Setting various property values
+                let alink = document.createElement('a');
+                alink.href = fileURL;
+                alink.download = 'Resume.pdf';
+                alink.click();
+            })
+        })
+    }
     return (
         <div className="container">
-            
+
             <div className='resume'>
                 <h3>Front-End</h3>
                 <ul>
-                 <li>HTML</li> 
-                 <li>CSS</li>
-                 <li>JavaScript</li>  
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
                 </ul>
-                
+
                 <h3>Back-End</h3>
                 <ul>
-                 <li>Node JS</li> 
-                 <li>Express</li>
-                 <li>Mysql (mysql workbench)</li>
-                 <li>Nosql (mongoDB, graphQl, mongoDB compass)</li>  
-                 <li>React</li> 
-                 <li>Insomnia</li> 
-                 <li>MVC programming</li>
-                 <li>MERN</li>
+                    <li>Node JS</li>
+                    <li>Express</li>
+                    <li>Mysql (mysql workbench)</li>
+                    <li>Nosql (mongoDB, graphQl, mongoDB compass)</li>
+                    <li>React</li>
+                    <li>Insomnia</li>
+                    <li>MVC programming</li>
+                    <li>MERN</li>
 
                 </ul>
+
+                <button onClick={onButtonClick}>
+                    Download Resume
+                </button>
             </div>
 
         </div>
