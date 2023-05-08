@@ -95,6 +95,11 @@ footer {
   color: white;
 }
 
+span {
+color: black;
+font-size: 15px;
+}
+
 @media screen and (max-width: 768px) {
   /* Use flex-direction to stack the navbar, sidebar, and body */
   main,
