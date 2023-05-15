@@ -1,4 +1,3 @@
-
 .container {
   background-color: #64abad;
   min-height: 100vh;
@@ -15,10 +14,9 @@
 }
 
 .name {
- font-size: 23px;
-padding-right: 660px;
-color: #025b5e;
-
+  font-size: 23px;
+  padding-right: 650px;
+  color: #025b5e;
 }
 
 .topnav {
@@ -27,13 +25,13 @@ color: #025b5e;
   display: flex;
   justify-content: right;
   padding: 20px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .topnav a {
   padding: 14px;
   font-size: 23px;
-  color:  #025b5e;
+  color: #025b5e;
 }
 
 .topnav a:hover {
@@ -74,14 +72,14 @@ footer {
   width: 80%;
 }
 
- .project-container {
+.project-container {
   border-style: solid;
   align-items: center;
   text-align: center;
   padding: 10px;
- }
- 
- .project-container a {
+}
+
+.project-container a {
   color: white;
 }
 
@@ -96,12 +94,13 @@ footer {
 }
 
 span {
-color: black;
-font-size: 15px;
+  color: black;
+  font-size: 15px;
 }
 
+
 @media screen and (max-width: 768px) {
-  /* Use flex-direction to stack the navbar, sidebar, and body */
+ 
   main,
   nav {
     flex-direction: column;
