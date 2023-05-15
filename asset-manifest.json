@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/professional-portfolio-react/static/css/main.31e675bf.css",
-    "main.js": "/professional-portfolio-react/static/js/main.33d65296.js",
+    "main.css": "/professional-portfolio-react/static/css/main.7cd759ad.css",
+    "main.js": "/professional-portfolio-react/static/js/main.6576475b.js",
     "static/media/marvel.png": "/professional-portfolio-react/static/media/marvel.dfc6c3ec8b58813c5a4d.png",
     "static/media/new yessenia.png": "/professional-portfolio-react/static/media/new yessenia.2f8dda5cf4a432301393.png",
     "static/media/readme generator.png": "/professional-portfolio-react/static/media/readme generator.02673df0fe829c125783.png",
@@ -11,11 +11,11 @@
     "static/media/Resume.pdf": "/professional-portfolio-react/static/media/Resume.4ecf22524b5818e111c6.pdf",
     "static/media/coming soon.png": "/professional-portfolio-react/static/media/coming soon.d053aad5abd73c39515c.png",
     "index.html": "/professional-portfolio-react/index.html",
-    "main.31e675bf.css.map": "/professional-portfolio-react/static/css/main.31e675bf.css.map",
-    "main.33d65296.js.map": "/professional-portfolio-react/static/js/main.33d65296.js.map"
+    "main.7cd759ad.css.map": "/professional-portfolio-react/static/css/main.7cd759ad.css.map",
+    "main.6576475b.js.map": "/professional-portfolio-react/static/js/main.6576475b.js.map"
   },
   "entrypoints": [
-    "static/css/main.31e675bf.css",
-    "static/js/main.33d65296.js"
+    "static/css/main.7cd759ad.css",
+    "static/js/main.6576475b.js"
   ]
 }
