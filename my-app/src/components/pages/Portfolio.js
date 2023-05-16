@@ -3,7 +3,7 @@ import marvelImage from "../../images/marvel.png";
 import daycareImage from "../../images/daycare.png";
 import insomniaImage from "../../images/insomnia.png";
 import readmeImage from "../../images/readme generator.png";
-import comingImage from "../../images/coming soon.png";
+import scienceImage from "../../images/science project.png";
 import weatherImage from "../../images/weather.png"
 
 export default function Portfolio() {
@@ -64,7 +64,7 @@ export default function Portfolio() {
 
             <div className='project-container'>
                 <a href="" title="science-project-builder" target="_blank" rel="noopener noreferrer">
-                    <img src={comingImage} alt="" width="300" height="180" />
+                    <img src={scienceImage} alt="" width="300" height="180" />
                 </a>
                 <br></br>
                 <a href="https://github.com/sadapannord/science-project-search-and-buildier.git" target="_blank" rel="noopener noreferrer">github URL</a>

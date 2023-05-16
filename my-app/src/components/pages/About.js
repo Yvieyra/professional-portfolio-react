@@ -9,11 +9,11 @@ export default function About() {
             </h2>
             <img src={aboutImage} alt="" width="150" height="180" />
             <div className='about-me'>
-                <p>I am currently a student at University of Utah, and I am learning fullstack development. I appreciate the problem solving skills I have learned to develop apps,
-                    programs, and just about anything I want with dedication and continuous learning.
+                <p>Recent bootcamp full-stack development graduate! I am ready and eager to land my first developer job and make a difference.
 
-                    I am a passionate about learning new skills, and technology. I am someone who works well with others in a team setting.
-                    I have strong communication/emotional intelligence skills. Equally, I work well on my own and have become quite the multi-tasker, I manage my time well.</p>
+                    I am passionate about learning new ideas, skills, and technology . I work well with others in a team setting. I have strong communication skills. Equally work well on my own and have become quite the multi-tasker, and manage my time well.
+                    I have spent most of my professional career in property management as an assistant property manager. The industry has taught me how to prioritize between demanding tasks,
+                    problem solve on the spot, budget, day to day business operations, marketing, effective communication and most importantly, how important it is to have a good user interface from using marketing sites to property management software.. </p>
             </div>
 
         </div>
