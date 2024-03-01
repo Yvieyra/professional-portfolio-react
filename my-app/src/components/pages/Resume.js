@@ -1,5 +1,5 @@
 import React from 'react';
-import file from '../../Files/Resume.pdf'
+import file from '../../Files/Resume2024.pdf'
 
 export default function Resume() {
     // Function will execute on click of button
@@ -11,7 +11,7 @@ export default function Resume() {
                 const fileURL = window.URL.createObjectURL(blob);
                 let alink = document.createElement('a');
                 alink.href = fileURL;
-                alink.download = 'Resume.pdf';
+                alink.download = 'Resume2024.pdf';
                 alink.click();
             })
         })
