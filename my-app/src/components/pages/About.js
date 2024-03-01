@@ -9,11 +9,17 @@ export default function About() {
             </h2>
             <img src={aboutImage} alt="" width="150" height="180" />
             <div className='about-me'>
-                <p>Recent bootcamp full-stack development graduate! I am ready and eager to land my first developer job and make a difference.
-
-                    I am passionate about learning new ideas, skills, and technology . I work well with others in a team setting. I have strong communication skills. Equally work well on my own and have become quite the multi-tasker, and manage my time well.
-                    I have spent most of my professional career in property management as an assistant property manager. The industry has taught me how to prioritize between demanding tasks,
-                    problem solve on the spot, budget, day to day business operations, marketing, effective communication and most importantly, how important it is to have a good user interface from using marketing sites to property management software.. </p>
+                <center>
+                    <p> My name is Yessenia and I am a hardworking individual who has spent the last six years of my professional career
+                        in property management. Property management has taught me a long list of skills that I know will be useful and make
+                        me an asset to your team. From operations management, marketing, budgets, auditing, accounting, customer service,
+                        and problem solving. I have become a great multi-tasker that knows how to organize a number of high priority tasks
+                        in a day and communicate effectively with my peers for the most efficient solutions and task completion. I believe
+                        my positive attitude and strong work ethic has helped me become a top performer in every organization/company I have
+                        been a part of. I am currently looking for an opportunity to change careers and start a career in the tech world. I
+                        recently received my full stack development certificate from the University Of Utah. I am ready to apply the skills I
+                        have learned and continue to learn more.</p>
+                </center>
             </div>
 
         </div>
