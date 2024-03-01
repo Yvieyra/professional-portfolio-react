@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/professional-portfolio-react/static/css/main.7cd759ad.css",
-    "main.js": "/professional-portfolio-react/static/js/main.6c4fbe18.js",
+    "main.js": "/professional-portfolio-react/static/js/main.030ef26a.js",
     "static/media/marvel.png": "/professional-portfolio-react/static/media/marvel.dfc6c3ec8b58813c5a4d.png",
     "static/media/new yessenia.png": "/professional-portfolio-react/static/media/new yessenia.2f8dda5cf4a432301393.png",
     "static/media/readme generator.png": "/professional-portfolio-react/static/media/readme generator.02673df0fe829c125783.png",
@@ -9,13 +9,13 @@
     "static/media/daycare.png": "/professional-portfolio-react/static/media/daycare.dfd7de0a0f478bdc4799.png",
     "static/media/insomnia.png": "/professional-portfolio-react/static/media/insomnia.64e3bdb9651a8432bbfb.png",
     "static/media/weather.png": "/professional-portfolio-react/static/media/weather.fa5e8b884aa24245cf89.png",
-    "static/media/Resume.pdf": "/professional-portfolio-react/static/media/Resume.9983846992f12de28763.pdf",
+    "static/media/Resume2024.pdf": "/professional-portfolio-react/static/media/Resume2024.265d028fd48909a75d3e.pdf",
     "index.html": "/professional-portfolio-react/index.html",
     "main.7cd759ad.css.map": "/professional-portfolio-react/static/css/main.7cd759ad.css.map",
-    "main.6c4fbe18.js.map": "/professional-portfolio-react/static/js/main.6c4fbe18.js.map"
+    "main.030ef26a.js.map": "/professional-portfolio-react/static/js/main.030ef26a.js.map"
   },
   "entrypoints": [
     "static/css/main.7cd759ad.css",
-    "static/js/main.6c4fbe18.js"
+    "static/js/main.030ef26a.js"
   ]
 }
