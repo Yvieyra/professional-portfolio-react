@@ -24,11 +24,11 @@ export default function Contact() {
   return (
     <div className="container">
       <form className='contact-form' ref={form} onSubmit={handleSubmit(sendEmail)}>
-        <label htmlFor='fname'>Full Name:</label>
+        <label htmlFor='fname'> Your Full Name:</label>
         <input type='text' placeholder='Full first name here...' {...register('fname', { required: true })}></input>
         {errors.fname && <span>*required field*</span>}
         <br></br>
-        <label htmlFor='email_from'>Email Address:</label>
+        <label htmlFor='email_from'> Your Email Address:</label>
         <input
           name="email_from"
           type="text"
@@ -38,7 +38,7 @@ export default function Contact() {
         {errors.email && <span>*Invalid email*</span>}
         <br></br>
 
-        <label htmlFor='message'>Message:</label>
+        <label htmlFor='message'>Your Message To Me:</label>
         <textarea name="message" type='text' placeholder='Type your message here...' rows='10' cols='60'></textarea>
 
         <input type="submit" />

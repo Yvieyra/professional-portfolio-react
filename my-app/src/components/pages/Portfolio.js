@@ -63,7 +63,7 @@ export default function Portfolio() {
             <br></br>
 
             <div className='project-container'>
-                <a href="" title="science-project-builder" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/sadapannord/science-project" title="science-project-builder" target="_blank" rel="noopener noreferrer">
                     <img src={scienceImage} alt="" width="300" height="180" />
                 </a>
                 <br></br>
