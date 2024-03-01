@@ -18,7 +18,7 @@ export default function Contact() {
     alert("submitted");
     // onSubmit();
     emailjs.sendForm("service_gw56ujl", "template_1atz8br", form.current, 'flKK_27oTKr0cb8jg');
-    const onSubmit = (values) => alert(JSON.stringify(values, null, 2));
+    let onSubmit = (values) => alert(JSON.stringify(values, null, 2));
   }
 
   return (
