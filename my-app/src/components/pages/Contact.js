@@ -28,12 +28,12 @@ export default function Contact() {
         <input type='text' placeholder='Full first name here...' {...register('from_name', { required: true })}></input>
         {errors.from_name && <span>*required field*</span>}
         <br></br>
-        <label htmlFor='email_from'> Your Email Address:</label>
+        <label htmlFor='reply_to'> Your Email Address:</label>
         <input
-          name="email_from"
+          name="reply_to"
           type="text"
           placeholder="Email address here..."
-          {...register("email_from", { required: true, pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i })}
+          {...register("reply_to", { required: true, pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i })}
         />
         {errors.email && <span>*Invalid email*</span>}
         <br></br>
